@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO(you): Make whatever changes needed to complete the assignment! -->
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Quiz</title>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="themify-icons-font/themify-icons/themify-icons.css"/>
+  <script src="script.js" defer="true"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <header>
+    <p id="header-course">WPR</p>
+    <div id="mern-stack">
+      <p class="mern-stack-item">M</p>
+      <p class="mern-stack-item">E</p>
+      <p class="mern-stack-item">R</p>
+      <p class="mern-stack-item">N</p>
+    </div>
+  </header>
+
+  <article>
+
+    <section id="quiz-name">
+            <div>HTML quiz</div>
+    </section>
+    
+    <section id="introduction">
+      <p id="author">By Nguyễn Tùng Lâm</p>
+        <h2>The Test</h2>
+        <p>The test contains 10 questions and there is no time limit.</p>
+        <p>The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.</p>
+        <h2>Count Your Score</h2>
+        <p>You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed. Maximum score is 10 points.</p>
+        <div class="box">
+            <h2>Start the quiz</h2>
+            <p>Good luck!</p>
+            <button class="btn blue-btn" id="start-btn">Start the HTML quiz
+              <i class="ti-angle-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <section id="attempt-quiz" class="hidden">
+        <!-- <div class="question">
+          <div class="question-heading">Question 1 of 10</div>
+          <div class-"questionText">Who is millionare? </div>
+          <div class="question-item">
+            <input   id="1.1" type="radio" name="question1">
+            <label class="" for="1.1">
+              Option 1
+            </label>
+          </div>
+          <div class="question-item">
+            <input id="1.2" type="radio" name="question1">
+            <label for="1.2">
+              Option 2
+            </label>
+          </div>
+          <div class="question-item">
+            <input id="1.3" type="radio" name="question1">
+            <label for="1.3">
+              Option 3
+            </label>
+          </div>
+            <div class="question-item">
+              <input id="1.4" type="radio" name="question1">
+              <label for="1.4">
+                Option 4
+              </label>
+            </div>
+          </div>
+
+          <div class="question">
+            <div class="question-heading">Question 2 of 10</div>
+            <div class-"questionText">Who is millionare? </div>
+            <div class="question-item">
+              <input   id="2.1" type="radio" name="question2">
+           
+              <label class="" for="2.1">
+                Option 1
+              </label>
+            </div>
+            <div class="question-item">
+              <input id="2.2" type="radio" name="question2">
+              <label for="2.2">
+                Option 2
+              </label>
+            </div>
+            <div class="question-item">
+              <input id="2.3" type="radio" name="question2">
+              <label for="2.3">
+                Option 3
+              </label>
+            </div>
+              <div class="question-item">
+                <input id="2.4" type="radio" name="question2">
+                <label for="2.4">
+                  Option 4
+                </label>
+              </div>
+            </div>
+
+            <div class="question">
+              <div class="question-heading">Question 3 of 10</div>
+               <div class-"questionText">Who is millionare? </div>
+              <div class="question-item">
+                <input   id="3.1" type="radio" name="question3">
+          
+                <label class="" for="3.1">
+                  Option 1
+                </label>
+              </div>
+              <div class="question-item">
+                <input id="3.2" type="radio" name="question3">
+                <label for="3.2">
+                  Option 2
+                </label>
+              </div>
+              <div class="question-item">
+                <input id="3.3" type="radio" name="question3">
+                <label for="3.3">
+                  Option 3
+                </label>
+              </div>
+                <div class="question-item">
+                  <input id="3.4" type="radio" name="question3">
+                  <label for="3.4">
+                    Option 4
+                  </label>
+                </div>
+              </div>  -->
+    </section>
+
+     <div id="submit-quiz" class="box hidden">
+      <button class="btn green-btn" id="submit-btn">Submit your answer></button>
+    </div> 
+
+    <section id="review-quiz" >
+       <!-- <div class="question">
+        <div class="question-heading">Question 1 of 10</div>
+        <div class="question-num">Question 3</div>
+        <div class="question-item">
+          <input checked="checked" disabled   id="1.1r" type="radio" name="question1">
+          <label class="right" for="1.1r">
+            Option 1
+            <span class="justify-span-question right">Correct answer</span>
+          </label>
+         
+        </div>
+        <div class="question-item">
+          <input disabled id="1.2r" type="radio" name="question1">
+          <label for="1.2r">
+            Option 2
+          </label>
+        </div>
+        <div class="question-item">
+          <input disabled id="1.3r" type="radio" name="question1">
+          <label for="1.3r">
+            Option 3
+          </label>
+        </div>
+          <div class="question-item">
+            <input disabled id="1.4r" type="radio" name="question1">
+            <label for="1.4r">
+              Option 4
+            </label>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="question-heading">Question 2 of 10</div>
+          <div class="question-num">Question 7</div>
+          <div class="question-item">
+            <input disabled   id="2.1r" type="radio" name="question2">
+            <label class="no-choose" for="2.1r">
+              Option 1
+              <span class="justify-span-question">Correct answer</span>
+            </label>
+          </div>
+          <div class="question-item">
+            <input checked disabled id="2.2r" type="radio" name="question2">
+            <label class="wrong" for="2.2r">
+              Option 2
+              <span class="justify-span-question">Your answer</span>
+            </label>
+          </div>
+          <div class="question-item">
+            <input disabled id="2.3r" type="radio" name="question2">
+            <label for="2.3r">
+              Option 3
+            </label>
+          </div>
+            <div class="question-item">
+              <input disabled id="2.4r" type="radio" name="question2">
+              <label for="2.4r">
+                Option 4
+              </label>
+            </div>
+          </div>
+
+          <div class="question">
+            <div class="question-heading">Question 3 of 10</div>
+            <div class="question-num">Question 2</div>
+            <div class="question-item">
+              <input disabled  id="3.1r" type="radio" name="question3">
+        
+              <label class="not-choose" for="3.1r">
+                Option 1
+                <span class="justify-span-question" >Correct answer</span>
+              </label>
+            </div>
+            <div class="question-item">
+              <input disabled id="3.2r" type="radio" name="question3">
+              <label for="3.2r">
+                Option 2
+              </label>
+            </div>
+            <div class="question-item">
+              <input disabled='disabled' id="3.3r" type="radio" name="question3">
+              <label for="3.3r">
+                Option 3
+              </label>
+            </div>
+              <div class="question-item">
+                <input disabled id="3.4r" type="radio" name="question3">
+                <label for="3.4r">
+                  Option 4
+                </label>
+              </div>
+            </div>  -->
+    </section>
+
+    <div class="box hidden" id="result-box" >
+      <h2>Result</h2>
+      <p id="score">1/10</p>
+      <h4 id="score-percent">10%</h4>
+      <p id="score-text">Practice more to improve it</p>
+      <button class="btn blue-btn" id="try-btn">Try again</button>
+ </div>
+  </article>
+</body>
+
+</html>
